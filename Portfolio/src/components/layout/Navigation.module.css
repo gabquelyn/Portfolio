@@ -1,0 +1,29 @@
+.head{
+    background-color: #2A2C39;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    box-shadow: 0px 4px 8px #252734;
+}
+
+.logo{
+    width: 50px;
+    margin-left: 10px;
+}
+
+.head ul{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    width: 80%;
+    justify-content: space-evenly;
+}
+
+.head ul li a{
+    text-decoration: none;
+}
+
+.head ul li{
+    cursor: pointer
+}
